@@ -21,9 +21,9 @@ public class Learnxpath {
 		driver.findElement(By.xpath("//a[@class='ico-login']")).click();
 		driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("obsqura24@gmail.com");
 		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys("mypassword");
-		
 		driver.findElement(By.xpath("//*[@class='buttons']/*[@value='Log in']")).click();
-		//driver.findElement(By.xpath("//*[@class='button- login-button']")).click();
+
+				//driver.findElement(By.xpath("//*[@class='button- login-button']")).click();
 		
 		driver.findElement(By.xpath("(//*[@class='list'])[1]/li[4]/a")).click();
 		driver.findElement(By.xpath("//h2[@class='product-title']//*[contains(text(),'Blue Jeans')]")).click();
